@@ -1,0 +1,24 @@
+{
+  "name": "beautyByAyy",
+  "description": "none",
+  "main": "y",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.14.3",
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6"
+  },
+  "devDependencies": {
+    "angular-ui-router": "~0.2.15"
+  }
+}
