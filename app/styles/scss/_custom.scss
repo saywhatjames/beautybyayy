@@ -1,0 +1,51 @@
+@import "_variables";
+
+body{
+  padding: 0px 0px 0px 0px;
+  margin:0px;
+  background-color: #FFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size:16px;
+
+}
+
+.beautyByAyy{
+
+  *{
+    padding:0px;
+    margin:0px;
+  }
+
+  *:focus {
+    outline: none;
+  }
+
+  font-size: 100%;
+  @media screen and (max-width: $screen-sm-min){
+    font-size:85%;
+  }
+
+  @media screen and (max-width: $screen-xs-min){
+    font-size:80%;
+  }
+  @media screen and (max-width: 325px){
+    font-size:70%;
+  }
+
+
+  a{
+    text-decoration: none;
+  }
+
+  //bootstrap ovverride
+  .container{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+}
+
+

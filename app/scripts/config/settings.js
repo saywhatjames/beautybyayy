@@ -15,11 +15,19 @@
             tplt:{
                 beautyByAyy:'views/beautyByAyy.html',
                 about:'views/about.html',
-                portfolio:'views/portfolio.html',
-                bookAnApp: 'views/bookAnApp.html'
-            }
+                portfolio:'scripts/modules/portfolio/portfolio.html',
+                bookAnApp: 'views/bookAnApp.html',
+                header:'scripts/modules/header/header.html',
+                footer:'scripts/modules/footer/footer.html'
+            },
+            supportedLanguages: {en: 'English', fr: 'Français'},		//used for Lang selector component
+            defaultLanguage: 'en',
+            enCode: 'en',
+            frCode: 'fr'
 
         })
+
+
 
 
 

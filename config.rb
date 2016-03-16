@@ -2,8 +2,8 @@
 	# Require any additional compass plugins here.
 	
 	# Folder settings
-	css_dir = "app/styles/css"          #where the CSS will saved
-	sass_dir = "app/styles/scss"   		#where our .scss files are
+	css_dir = "/app/styles/css"          #where the CSS will saved
+	sass_dir = "app" 					#where our .scss files are
 	font = "app/resources/fonts"
 	
 	# You can select your preferred output style here (can be overridden via the command line):

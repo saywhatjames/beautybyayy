@@ -1,0 +1,62 @@
+$gray:#989898;
+$nice-black:#252323;
+$dirty-white:#efefef;
+
+$viewport-min-width: 420px;
+
+$rgs-red: #DA291C;
+$rgs-dark-red: #AF2217;
+$rgs-light-red: #fceceb;
+
+$rgs-blue: #BBE4EC;
+$rgs-dark-blue: #00aec7;
+$rgs-light-blue: #DDF1F5;
+$rgs-ocean-blue: #1CAEC5;
+$rgs-black-blue: #0a5498;
+
+$rgs-golden-yellow:#ffbf3f;
+$rgs-yellow: #FFD490;
+$rgs-dark-yellow: #E4a02f;
+$rgs-light-yellow: #FFE9C7;
+$rgs-tooltip-grey: #808284;
+$rgs-green: #008A00;
+$rgs-light-green: #CCE8CC;
+$rgs-dark-green: #005C00;
+
+$rgs-dark: #303030;
+$rgs-grey: #a0a0a0;
+$rgs-light-grey: #c0c0c0;
+$rgs-xlight-grey: #f5f5f5;
+$rgs-border-gray:#bbbdc0;
+
+$rgs-light-ocean-blue: #ccddff;
+
+$rgs-warning: #ffffc0;
+
+/*term,orderSummary,confirmation*/
+$blueHeader: #00aec7;
+$bluefooter: #bce4ec;
+$defaultcolor: #414042;
+$white: #ffffff;
+$grey: rgba(187, 189, 192, 0.3);
+$blueButtonDefault: #bbe4ec;
+$blueButtonhover: #86cddb;
+$redButtonDefault: #da291c;
+$redButtonHover: #af2217;
+
+/* z-index variables, 1000 arround */
+$z-top0: 1050;
+$z-top1: 1040;
+$z-top2: 1030;
+$z-top3: 1020;
+$z-top4: 1010;
+$z-top5: 1000;
+
+/* Bootstrap min- break points, these points are not belong to the relevant devices */
+$screen-xxs-min: 325px;
+$screen-xs-min: 480px;	/* xs: 481-768 */
+$screen-sm-min: 768px;	/* sm: 769-992 */
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+

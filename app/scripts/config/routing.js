@@ -36,7 +36,11 @@
 
         angular.forEach(allStates,function(state,key){
             $stateProvider.state(state);
-        })
+        });
+
+        $urlRouterProvider.when('', addr.portfolio);
+        $urlRouterProvider.when('/', addr.portfolio);
+
 
 
 

@@ -6,11 +6,18 @@
 
     <link rel="stylesheet" type='text/css' href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="styles/css/main.css">
+    <link rel="stylesheet" href="styles/css/styles/scss/main.css">
 </head>
-<body ng-app="app">
+<body ng-app="app" ng-controller="rootController as rc">
 
-<main-content class="beautyByAyy"></main-content>
+<!--<main-content class="beautyByAyy"></main-content>-->
+<bba-header></bba-header>
+
+<div class='beautyByAyy'>
+    <div class='main-view row' ui-view></div>
+</div>
+
+<bba-footer></bba-footer>
 
 
 <script src="bower_components/angular/angular.js"></script>
@@ -19,13 +26,21 @@
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-translate/angular-translate.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
 
 
 <script src="scripts/app.js"></script>
 <script src="scripts/config/routing.js"></script>
 <script src="scripts/config/settings.js"></script>
 
+<script src="scripts/controller/rootController.js"></script>
+
+<script src="scripts/modules/header/header.directive.js"></script>
+<script src="scripts/modules/footer/footer.directive.js"></script>
+
 <script src="scripts/directives/mainContent.js"></script>
+<script src="scripts/services/userLanguage.js"></script>
 
 
 </body>
